@@ -6,13 +6,16 @@ Energy Efficient Design for Accelerate Sparsh Convolutional Neural Network
 
 There are 3 Python packages and 7 Python code files are used to accomplish the needs of the dissertation work.
 Necessary software packages need to install to run the above mentioned packages & codes on Windows (64-bit) environment:
-1. Python IDLE 3.6 (64-bit) or the latest version
-2. Numpy library
-3. Pandas library
+
+1. __Python IDLE 3.6 (64-bit) or the latest version__
+2. __Numpy library
+3. **Pandas library
 4. Matplotlib library
 5. Argparse library
 6. Tqdm library
+
 Description of Python packages:
+
 1. Full_precision_weights: It consists of Python code files in which 5 layer LeNet architecture is implemented with full precision weights. Full precision weights are stored in ‘params.pkl’ file to test the accuracy of the model.
 2. Ternary_weights_ECF: It consists of Python code files in which 5 layer LeNet architecture is implemented with Ternary weights via ECF. These Ternary weights are stored in ‘ECF_params.pkl’ file to test the accuracy of the model.
 3. Ternary_weights_QCF: It consists of Python code files in which 5 layer LeNet architecture is implemented with Ternary weights via QCF. These Ternary weights are stored in ‘QCF_params.pkl’ file to test the accuracy of the model.
