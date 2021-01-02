@@ -2,7 +2,7 @@
 Energy Efficient Design for Accelerate Sparsh Convolutional Neural Network
 
 
-## Python projects
+## Python Implementation
 
 There are 3 Python packages and 7 Python code files are used to accomplish the needs of the dissertation work.
 Necessary software packages need to install to run the above mentioned packages & codes on Windows (64-bit) environment:
@@ -43,23 +43,27 @@ Steps to execute these files:
 2. Open the desired code file in IDLE.
 3. Click on ‘Run -> Run module’ command in the menu bar or Press ‘F5’ command to run the code.
 
-## Verilog projects
+## Verilog Implementation
 
 Seven Verilog projects that are accomplished to fulfil the needs of the dissertation work are as follows:
+
 Tool required: Vivado 2018.1 or the latest version
-1. AIM_algorithm: It consists of Verilog code of AIM algorithm in which activations & weights are chosen of (20, 1) dimension. It contains one design source and one simulation source. It can run on default settings in any latest version of Vivado tool.
-2. DIM_algorithm: It consists of Verilog code of DIM algorithm in which activations & weights are chosen of (20, 1) dimension. It contains one design source and one simulation source. It can run on default settings in any latest version of Vivado tool.
-3. CM_algorithm: It consists of Verilog code of conventional method in which activations & weights are chosen of (20, 1) dimension. It contains one design source and one simulation source. It can run on default settings in any latest version Vivado tool.
-4. FC_by_AIM: It consists of Verilog code of fully-connected layer via AIM algorithm in which activations are of (128, 1) dimension. It contains three design sources and one simulation source. Memory initialization file (MIF) such as ‘AIM_act.mif’ and ‘AIM_weight.mif’ should be added to the design source so that they are available to both the code and the test bench. To run this code on Vivado tool, select ‘FC_by_AIM.v’ file as a top module in general settings and ‘FC_by_AIM_tb.v' file as a top module in simulation settings.
-5. FC_by_DIM: It consists of Verilog code of fully-connected layer via DIM algorithm in which activations are of (128, 1) dimension. It contains three design sources and one simulation source. Memory initialization file (MIF) such as ‘DIM_act.mif’ and ‘DIM_weight.mif’ should be added to the design source so that they are available to both the code and the test bench. To run this code on Vivado tool, select ‘FC_by_DIM.v' file as a top module in general settings and ‘FC_by_DIM_tb.v' file as a top module in simulation settings.
-6. CNN_Comparator_Parallel: It consists of Verilog code of convolutional layer of (5, 5) dimension which exploits parallelism without multiplications. It contains one design source and one simulation source. Memory initialization file (MIF) such as ‘A0’, ‘A1’,
-A2, ‘A3’, ‘A4’, ‘AIM_act.mif’ and ‘AIM_weight.mif’ should be added to the design source so that they are available to both the code and the test bench. It can run on default settings in any latest version Vivado tool.
-7. CNN_MUL_Parallel: It consists of Verilog code of convolutional layer of (5, 5) dimension which exploits parallelism with multiplications. It contains one design source and one simulation source. Memory initialization file (MIF) such as ‘A0’, ‘A1’, A2, ‘A3’, ‘A4’, ‘AIM_act.mif’ and ‘AIM_weight.mif’ should be added to the design source so that they are available to both the code and the test bench. It can run on default settings in any latest version Vivado tool.
+
+1. __AIM_algorithm:__ It consists of Verilog code of AIM algorithm in which activations & weights are chosen of (20, 1) dimension. It contains one design source and one simulation source. It can run on default settings in any latest version of Vivado tool.
+2. __DIM_algorithm:__ It consists of Verilog code of DIM algorithm in which activations & weights are chosen of (20, 1) dimension. It contains one design source and one simulation source. It can run on default settings in any latest version of Vivado tool.
+3. __CM_algorithm:__ It consists of Verilog code of conventional method in which activations & weights are chosen of (20, 1) dimension. It contains one design source and one simulation source. It can run on default settings in any latest version Vivado tool.
+4. __FC_by_AIM:__ It consists of Verilog code of fully-connected layer via AIM algorithm in which activations are of (128, 1) dimension. It contains three design sources and one simulation source. Memory initialization file (MIF) such as `AIM_act.mif` and `AIM_weight.mif` should be added to the design source so that they are available to both the code and the test bench. To run this code on Vivado tool, select `FC_by_AIM.v` file as a top module in general settings and `FC_by_AIM_tb.v` file as a top module in simulation settings.
+5. __FC_by_DIM:__ It consists of Verilog code of fully-connected layer via DIM algorithm in which activations are of (128, 1) dimension. It contains three design sources and one simulation source. Memory initialization file (MIF) such as `DIM_act.mif` and `DIM_weight.mif` should be added to the design source so that they are available to both the code and the test bench. To run this code on Vivado tool, select `FC_by_DIM.v` file as a top module in general settings and `FC_by_DIM_tb.v` file as a top module in simulation settings.
+6. __CNN_Comparator_Parallel:__ It consists of Verilog code of convolutional layer of (5, 5) dimension which exploits parallelism without multiplications. It contains one design source and one simulation source. Memory initialization file (MIF) such as `A0`, `A1`,
+`A2`, `A3`, `A4`, `AIM_act.mif` and `AIM_weight.mif` should be added to the design source so that they are available to both the code and the test bench. It can run on default settings in any latest version Vivado tool.
+7. __CNN_MUL_Parallel:__ It consists of Verilog code of convolutional layer of (5, 5) dimension which exploits parallelism with multiplications. It contains one design source and one simulation source. Memory initialization file (MIF) such as `A0`, `A1`, `A2`, `A3`, `A4`, `AIM_act.mif` and `AIM_weight.mif` should be added to the design source so that they are available to both the code and the test bench. It can run on default settings in any latest version Vivado tool.
+
 Steps to execute Verilog projects:
+
 1. Open Vivado tool.
-2. Select Kintex-7 xc7k70tfbg484-1 FPGA device by clicking on ‘Settings -> Project device’ command.
+2. Select Kintex-7 xc7k70tfbg484-1 FPGA device by clicking on `Settings -> Project device` command.
 3. Check general settings and simulation settings.
 4. Upload MIF file if present in the code by adding it through the design source.
-5. Click on ‘Run Simulation -> Run behavioural Simulation’ to run simulation for a given project.
-6. Click on ‘Run Synthesis’ to run synthesis for a given project.
-7. Click on ‘Run Implementation’ to run implementation for a given project.
+5. Click on `Run Simulation -> Run behavioural Simulation` to run simulation for a given project.
+6. Click on `Run Synthesis` to run synthesis for a given project.
+7. Click on `Run Implementation` to run implementation for a given project.
