@@ -1,7 +1,7 @@
-# M.-Tech-Thesis-Project
+# M.Tech-Thesis-Project
 Energy Efficient Design for Accelerate Sparsh Convolutional Neural Network
 
-## ABSTRACT
+## Abstract
 
 The state-of-the art deep learning architecture, Convolutional Neural Network (CNN), widely
 used in the applications such as speech recognition, face detection, natural language processing &
