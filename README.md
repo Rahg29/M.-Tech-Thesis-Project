@@ -2,7 +2,6 @@
                                Energy Efficient Design for Accelerate Sparsh Convolutional Neural Network
 
 ## Abstract
-
 The state-of-the art deep learning architecture, Convolutional Neural Network (CNN), widely
 used in the applications such as speech recognition, face detection, natural language processing &
 computer vision. MAC units which is an integral part of CNN require large computations and
