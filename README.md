@@ -2,7 +2,8 @@
 Energy Efficient Design for Accelerate Sparsh Convolutional Neural Network
 
 
-Python projects
+# Python projects
+
 There are 3 Python packages and 7 Python code files are used to accomplish the needs of the dissertation work.
 Necessary software packages need to install to run the above mentioned packages & codes on Windows (64-bit) environment:
 1. Python IDLE 3.6 (64-bit) or the latest version
@@ -33,7 +34,9 @@ Steps to execute these files:
 1. Open Python IDLE.
 2. Open the desired code file in IDLE.
 3. Click on ‘Run -> Run module’ command in the menu bar or Press ‘F5’ command to run the code.
-Verilog projects
+
+# Verilog projects
+
 Seven Verilog projects that are accomplished to fulfil the needs of the dissertation work are as follows:
 Tool required: Vivado 2018.1 or the latest version
 1. AIM_algorithm: It consists of Verilog code of AIM algorithm in which activations & weights are chosen of (20, 1) dimension. It contains one design source and one simulation source. It can run on default settings in any latest version of Vivado tool.
