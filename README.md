@@ -2,7 +2,7 @@
 Energy Efficient Design for Accelerate Sparsh Convolutional Neural Network
 
 
-# Python projects
+## Python projects
 
 There are 3 Python packages and 7 Python code files are used to accomplish the needs of the dissertation work.
 Necessary software packages need to install to run the above mentioned packages & codes on Windows (64-bit) environment:
