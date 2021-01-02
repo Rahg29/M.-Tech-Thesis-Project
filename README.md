@@ -8,37 +8,42 @@ There are 3 Python packages and 7 Python code files are used to accomplish the n
 Necessary software packages need to install to run the above mentioned packages & codes on Windows (64-bit) environment:
 
 1. __Python IDLE 3.6 (64-bit) or the latest version__
-2. __Numpy library
-3. **Pandas library
-4. Matplotlib library
-5. Argparse library
-6. Tqdm library
+2. __Numpy library__
+3. __Pandas library__
+4. __Matplotlib library__
+5. __Argparse library__
+6. __Tqdm library__
 
 Description of Python packages:
 
-1. Full_precision_weights: It consists of Python code files in which 5 layer LeNet architecture is implemented with full precision weights. Full precision weights are stored in ‘params.pkl’ file to test the accuracy of the model.
-2. Ternary_weights_ECF: It consists of Python code files in which 5 layer LeNet architecture is implemented with Ternary weights via ECF. These Ternary weights are stored in ‘ECF_params.pkl’ file to test the accuracy of the model.
-3. Ternary_weights_QCF: It consists of Python code files in which 5 layer LeNet architecture is implemented with Ternary weights via QCF. These Ternary weights are stored in ‘QCF_params.pkl’ file to test the accuracy of the model.
+1. __Full_precision_weights:__ It consists of Python code files in which 5 layer LeNet architecture is implemented with full precision weights. Full precision weights are stored in `params.pkl` file to test the accuracy of the model.
+2. __Ternary_weights_ECF:__ It consists of Python code files in which 5 layer LeNet architecture is implemented with Ternary weights via ECF. These Ternary weights are stored in `ECF_params.pkl` file to test the accuracy of the model.
+3. __Ternary_weights_QCF:__ It consists of Python code files in which 5 layer LeNet architecture is implemented with Ternary weights via QCF. These Ternary weights are stored in `QCF_params.pkl` file to test the accuracy of the model.
+
 Steps to execute these packages:
+
 1. Open the command prompt.
-2. Change the current directory to the directory where ‘train_cnn.py’ file is present in the given package.
-3. Use ‘C:\................\ train_cnn.py '< file_name >.pkl' command to train the CNN model and save parameters for testing.
-4. Use ‘C:\................\ measure_performance.py '< file_name >.pkl' command to test the CNN model with the help of saved parameters.
+2. Change the current directory to the directory where `train_cnn.py` file is present in the given package.
+3. Use `C:\................\ train_cnn.py < file_name >.pkl` command to train the CNN model and save parameters for testing.
+4. Use `C:\................\ measure_performance.py < file_name >.pkl` command to test the CNN model with the help of saved parameters.
 5. Accuracy, plot and bar graph are obtained after testing of CNN model.
+
 Description of Python code files:
-1. Activation_FC_Layer_AIM: It consists of Python code of the fully-connected layer via AIM algorithm.
-2. Activation_FC_Layer_DIM: It consists of Python code of the fully-connected layer via DIM algorithm.
-3. Activation_FC_Layer_CM: It consists of Python code of the fully-connected layer via conventional method.
-4. Output_Neuron_AIM: It consists of Python code of AIM algorithm which gives one neuron as an output.
-5. Output_Neuron_DIM: It consists of Python code of DIM algorithm which gives one neuron as an output.
-6. Output_Neuron_CM: It consists of Python code of conventional method which gives one neuron as an output.
-7. Sparse_calculation: It consists of Python code which calculates the sparsity present in the Ternary weights.
+
+1. __Activation_FC_Layer_AIM:__ It consists of Python code of the fully-connected layer via AIM algorithm.
+2. __Activation_FC_Layer_DIM:__ It consists of Python code of the fully-connected layer via DIM algorithm.
+3. __Activation_FC_Layer_CM:__ It consists of Python code of the fully-connected layer via conventional method.
+4. __Output_Neuron_AIM:__ It consists of Python code of AIM algorithm which gives one neuron as an output.
+5. __Output_Neuron_DIM:__ It consists of Python code of DIM algorithm which gives one neuron as an output.
+6. __Output_Neuron_CM:__ It consists of Python code of conventional method which gives one neuron as an output.
+7. __Sparse_calculation:__ It consists of Python code which calculates the sparsity present in the Ternary weights.
+
 Steps to execute these files:
 1. Open Python IDLE.
 2. Open the desired code file in IDLE.
 3. Click on ‘Run -> Run module’ command in the menu bar or Press ‘F5’ command to run the code.
 
-# Verilog projects
+## Verilog projects
 
 Seven Verilog projects that are accomplished to fulfil the needs of the dissertation work are as follows:
 Tool required: Vivado 2018.1 or the latest version
